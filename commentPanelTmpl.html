@@ -1,0 +1,15 @@
+<div class="panel panel-default"
+  ng-class="hiddenOrNot" id="commentPanel">
+  <div class="panel-heading">
+    <h3 class="panel-title">Comments</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <label>Comment of Review {{reviewComment}}</label>
+    </div>
+    <div>
+      <input disabled type="text" class="form-control"
+        id="reviewComment" ng-model="reviewcomment">{{reviewComment}}
+    </div>
+  </div>
+</div>
